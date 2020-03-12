@@ -13,7 +13,7 @@ def hello_world():
 
 @app.route('/artist/<artist>')
 def artist_songs(artist):
-    client_access_token = 'lGfRn00QjCEQlSuUo_gxkOE_HdETYXPH9RXpze6qjg0KOFXddkUzSpQ0YGgFvuVs'
+    client_access_token = 'YOUR_CLIENT_ACCESS_TOKEN'
     base_url = 'https://api.genius.com'
     path = 'search/'
     request_uri = '/'.join([base_url, path])
