@@ -6,14 +6,9 @@ import json
 app = Flask(__name__)
 
 
-@app.route('/')
-def hello_world():
-    return 'Hello World!'
-
-
 @app.route('/artist/<artist>')
 def artist_songs(artist):
-    client_access_token = 'YOUR_CLIENT_ACCESS_TOKEN'
+    client_access_token = 'YourClientAccessToken'
     base_url = 'https://api.genius.com'
     path = 'search/'
     request_uri = '/'.join([base_url, path])
