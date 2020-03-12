@@ -12,7 +12,7 @@ pipenv install
 Now that all dependencies are installed
 
 You will need a Client access token from genius api.\
-You can get one here: https://docs.genius.com/\
+You can get one here: https://docs.genius.com/  
 Click on the 'API Client management page' link, fill the form and you are ready to go.
 
 At the console:
